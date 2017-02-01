@@ -1,0 +1,401 @@
+/*
+Theme Name: Asset Management Ventures 1.7
+Theme URI: http://www.assetman.com
+Description: Asset Management Website 2014
+Author: Jialu Chen
+Author URI: http://www.jialu.chen@gmail.com
+Version: 1.0 August 2014
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+body { 
+     padding-top: 35px; 
+     padding-bottom: 40px; 
+}
+
+.container-fluid {
+  margin-left: 0px;
+  max-width: 1536px;
+}
+
+.navbar-custom .navbar{
+	color: white;
+	text-transform: uppercase;
+	background-color: white;
+	border-bottom-color: white;
+	border-left-color: white;
+	border-right-color: white;
+	border-top-color: white;
+	outline-color: white;
+}
+
+.homecarousel {
+	padding:0px;
+}
+
+.maincarousel{
+	padding-left:0px;
+	padding-right: 0px;
+}
+
+.featurette{
+	padding: 15px;
+	margin-top: 50px;
+}
+
+.featurette img{
+	display: inline;
+}
+
+.featurette h4{
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	padding-bottom: 5px;
+	display: inline;
+}
+
+.featurette a{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: solid 2px;
+	border-color: #44749D;
+	max-width: 300px;
+	min-width: 200px;
+	margin: 0 auto;
+	display: block;
+	color: #44749D;
+}
+
+.featurette .inner{
+	width: 200px;
+	margin: 0 auto;
+}
+
+.featurette a:link{
+	filter: gray;
+	-webkit-filter: grayscale(100%);
+	opacity: .6;
+}
+
+.featurette a:hover{
+	text-decoration: none;
+	filter: none;
+	-webkit-filter: none;
+	opacity: 1;
+}
+
+.perspective-home{
+	padding: 30px;
+	margin-top: 20px;
+}
+
+.perspective-home .perspective{
+	padding-bottom:20px;
+}
+
+.about h4{
+	font-family:"HelveticaNeueCondensedBold", "HelveticaNeue-CondensedBold", "Helvetica Neue Condensed Bold" "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.about p{
+	font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-bottom:20px;
+}
+
+.team .row .col-sm-2{
+	padding-bottom: 50px
+}
+
+.team h1{
+	margin-bottom:20px;
+}
+
+.team a:link{
+	color: #000;
+}
+
+.team a:visited{
+	color: #000;
+}
+
+.team a:hover{
+	text-decoration: none;
+	color: #777;
+}
+
+.team h4{
+	margin-bottom:0px;
+	font-family:"HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.team p{
+	margin-bottom: 0px;
+	font-family:"HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.team-headshot{
+	padding-left:2px;
+	padding-right:2px;
+	display:block;
+	margin: 0 auto;
+}
+
+.team-row{
+	padding-left:45px;
+	padding-right:10px;
+}
+
+.profiles img{
+	float: left;
+}
+
+.profiles .bio-content{
+	margin-top: 15px;
+}
+
+.profiles h2{
+	font-family:"HelveticaNeueCondensedBold", "HelveticaNeue-CondensedBold", "Helvetica Neue Condensed Bold" "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.bio-investments img{
+	width: 150px;
+	display: inline-block;
+	padding:5px;
+}
+
+.bio-investments {
+	padding-bottom: 25px;
+	display: inline-block;
+}
+
+.portfolio-sidebar{
+	border-color: transparent;
+	box-shadow: none;
+	font-family:"HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.portfolio-sidebar h2{
+	font-family:"HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 28px;
+}
+
+.portfolio-sidebar a:link{
+	color: #000;
+}
+.portfolio-sidebar a:hover{
+	text-decoration: none;
+	color: #777;
+}
+
+.portfolio{
+	border-color: transparent;
+	box-shadow: none;
+}
+
+.portco {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #DDD;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+
+.portco img{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 200px;
+	float: left;
+}
+
+.portco-detail{
+	display: inline-block;
+}
+
+
+.strategy h4{
+	font-family:"HelveticaNeueCondensedBold", "HelveticaNeue-CondensedBold", "Helvetica Neue Condensed Bold" "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding-top: 17px;
+}
+
+.strategy p{
+	padding-bottom:3px;
+}
+
+.strategy{
+	padding:0px;
+}
+
+.strategy .strategytext{
+	padding:20px;
+}
+.strategy .dhpic{
+	padding:20px 0px;
+}
+
+.strategy .dhpic .img-responsive{
+	max-width: 1024px;
+}
+
+.perspectives-page h3{
+	font-family:"HelveticaNeueCondensedBold", "HelveticaNeue-CondensedBold", "Helvetica Neue Condensed Bold" "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-bottom:3px;
+}
+
+.perspectives-page h6{
+	font-family:"HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	margin-top: 3px;
+}
+
+.articles .perspective h4 a:link{
+	color:#000;
+}
+
+.articles .perspective h4 a:hover{
+	text-decoration:none;
+	color:#777;
+}
+
+.articles .perspective{
+	padding-bottom:30px;
+}
+
+.articles .perspective h4{
+	font-family:"HelveticaNeueCondensedBold", "HelveticaNeue-CondensedBold", "Helvetica Neue Condensed Bold" "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.articles .perspective{
+	font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.articles .perspective .photo-teaser{
+	padding-right: 20px;
+	padding-bottom:20px; 
+	display: block;
+	margin: auto;
+}
+.articles .perspective .slug{
+	font-size: 12px;
+	display: block;
+	padding-bottom: 10px;
+}
+
+.articles .perspective .article-description{
+	display: inline;
+}
+
+.articles .perspective .publication{
+	font-size:10px;
+}
+
+.contact{
+	padding-bottom: 30px
+}
+.contact h3{
+	font-family:"HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+iframe, object, embed { width: 100%; }
+
+.footer-custom{
+	font-size: 11px;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer-custom .foo{
+	padding-top: 8px;
+}
+
+
+
+
+/*=========================================
+	Isotope Styles
+=========================================*/
+.box {
+/* if not using border-box 
+width: 218px; 
+*/
+
+width:100%;
+background: #ffffff;
+padding: 15px;
+margin: auto;
+float: left;
+
+-webkit-border-radius: 5px;
+border-radius: 5px;
+
+}
+
+#main {
+margin-top: 10px;
+}
+
+
+.isotope-item {
+  z-index: 2;
+
+}
+ 
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+ 
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+ 
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+          transition-property: height, width;
+}
+ 
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+.portfolio-sidebar ul{
+	list-style-type: none;
+	padding:0px;
+}
+
+.portfolio-sidebar .nav-pills > li.active > a{
+	background-color: #022040;
+}
+
+.portfolio-sidebar .nav-pills a:focus{
+	background-color: #fff;
+}
+
+.portfolio-sidebar .nav-pills a:hover{
+	background-color: #e7e7e7;
+}
+
+.portfolio-sidebar a:visited{
+	color:#000;
+}
